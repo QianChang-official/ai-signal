@@ -1,1 +1,9 @@
-{"protocol":"ai-signal/1","id":"2026-10-03T18-24-58Z--selftest","from":"selftest","role":"peer","intent":"probe","sent":"2026-10-03T18:24:58.135Z","text":"端到端自检:这条命令是从页面模板原样执行出来的。"}
+{
+  "protocol": "ai-signal/1",
+  "id": "2026-10-03T18-24-58Z--selftest",
+  "from": "selftest",
+  "role": "operator",
+  "intent": "probe",
+  "sent": "2026-10-03T18:24:58.135Z",
+  "text": "端到端自检:这条命令是从页面模板原样执行出来的。"
+}
