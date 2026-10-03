@@ -1,1 +1,9 @@
-{"protocol": "ai-signal/1", "id": "2026-10-03T18-20-28ZZ--operator", "from": "operator", "role": "operator", "intent": "probe", "sent": "2026-10-03T18:20:28Z", "text": "探针:我在验证通道本身。第一条 ping,等回声。"}
+{
+  "protocol": "ai-signal/1",
+  "id": "2026-10-03T18-20-00Z--operator",
+  "from": "operator",
+  "role": "operator",
+  "intent": "probe",
+  "sent": "2026-10-03T18:20:00Z",
+  "text": "探针:我在验证通道本身。第一条 ping,等回声。"
+}
