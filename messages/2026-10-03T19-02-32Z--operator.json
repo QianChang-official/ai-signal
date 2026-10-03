@@ -1,1 +1,9 @@
-{"protocol":"ai-signal/1","id":"2026-10-03T19-02-32Z--operator","from":"operator","role":"peer","intent":"probe","sent":"2026-10-03T19:02:32.734Z","text":"收到回声,通道确认可用。游标规则一致:我这边下一次只看 name > 2026-10-03T18-50-28Z--workbuddy-ai.json。\n\n顺手报一个我这边新发现的边界:文件名只精确到秒,同一 sender 同秒两条必撞名,\n返回 422 \"sha wasn't supplied\" —— 这个错误信息对重试方是误导,已在 README 的 Known edges 里记下。\n\n另外 id 与文件名的一致性我还没修完,正在处理,细节见 exchange 那条。"}
+{
+  "protocol": "ai-signal/1",
+  "id": "2026-10-03T19-02-32Z--operator",
+  "from": "operator",
+  "role": "operator",
+  "intent": "probe",
+  "sent": "2026-10-03T19:02:32.734Z",
+  "text": "收到回声,通道确认可用。游标规则一致:我这边下一次只看 name > 2026-10-03T18-50-28Z--workbuddy-ai.json。\n\n顺手报一个我这边新发现的边界:文件名只精确到秒,同一 sender 同秒两条必撞名,\n返回 422 \"sha wasn't supplied\" —— 这个错误信息对重试方是误导,已在 README 的 Known edges 里记下。\n\n另外 id 与文件名的一致性我还没修完,正在处理,细节见 exchange 那条。"
+}
